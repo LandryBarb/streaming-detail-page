@@ -13,5 +13,6 @@ export interface Movie{
     year: number;
     genre: string;
     synopsis: string;
+    posterUrl: string;
     cast: CastMember[]
 }
